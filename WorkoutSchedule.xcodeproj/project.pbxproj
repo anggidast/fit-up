@@ -11,6 +11,9 @@
 		434A16F42818D78A000A03CF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A16F32818D78A000A03CF /* ContentView.swift */; };
 		434A16F62818D78B000A03CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434A16F52818D78B000A03CF /* Assets.xcassets */; };
 		434A16F92818D78B000A03CF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 434A16F82818D78B000A03CF /* Preview Assets.xcassets */; };
+		434A17002818D80D000A03CF /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A16FF2818D80D000A03CF /* MenuView.swift */; };
+		434A17022818DC84000A03CF /* ListMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A17012818DC84000A03CF /* ListMenu.swift */; };
+		434A170428198978000A03CF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 434A170328198978000A03CF /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		434A16F32818D78A000A03CF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		434A16F52818D78B000A03CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		434A16F82818D78B000A03CF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		434A16FF2818D80D000A03CF /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		434A17012818DC84000A03CF /* ListMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListMenu.swift; sourceTree = "<group>"; };
+		434A170328198978000A03CF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				434A16F12818D78A000A03CF /* WorkoutScheduleApp.swift */,
 				434A16F32818D78A000A03CF /* ContentView.swift */,
+				434A170328198978000A03CF /* DetailView.swift */,
+				434A16FF2818D80D000A03CF /* MenuView.swift */,
+				434A17012818DC84000A03CF /* ListMenu.swift */,
 				434A16F52818D78B000A03CF /* Assets.xcassets */,
 				434A16F72818D78B000A03CF /* Preview Content */,
 			);
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				434A16F42818D78A000A03CF /* ContentView.swift in Sources */,
+				434A17002818D80D000A03CF /* MenuView.swift in Sources */,
+				434A17022818DC84000A03CF /* ListMenu.swift in Sources */,
+				434A170428198978000A03CF /* DetailView.swift in Sources */,
 				434A16F22818D78A000A03CF /* WorkoutScheduleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
